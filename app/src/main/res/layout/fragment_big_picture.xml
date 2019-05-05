@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:padding="0dp"
+    >
+    <!--android:background="#Ffc"-->
+
+    <ImageView
+        android:id="@+id/bigPic_image_cat"
+        android:layout_width="match_parent"
+        android:layout_height="281dp"
+        android:layout_margin="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cat2"
+        android:transitionName="shared_cat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bigPic_text_label"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/bigPic_image_cat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/bigPic_text_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="30dp"
+        android:text="Page 2"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="360dp"
+        android:layout_height="247dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Норве́жская лесна́я ко́шка — порода полудлинношёрстных кошек, наиболее распространена в странах Северной Европы. В Норвегии порода известна как Skogkatter или Skovkatter (от «skog» и «skov», означающих «лес» на различных норвежских диалектах) и Norsk Skogkatt (Норвежская лесная кошка) и объявлена официальной породой Норвегии. "
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bigPic_image_cat" />
+    <!--<TextView-->
+        <!--android:id="@+id/bigPic_text_label"-->
+        <!--android:transitionName = "shared_label"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:fontFamily="sans-serif-thin"-->
+        <!--android:text="Middle age cat"-->
+        <!--android:textSize="30sp"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/bigPic_image_cat"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
